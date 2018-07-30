@@ -2,7 +2,7 @@
     "name": "turndown-vscode",
     "displayName": "Turndown-VSCode",
     "description": "Turndown for VSCode",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "kurre",
     "repository": {
         "type": "git",
