@@ -2,8 +2,12 @@
     "name": "turndown-vscode",
     "displayName": "Turndown-VSCode",
     "description": "Turndown for VSCode",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "kurre",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kurrestahlberg/turndown-vscode.git"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
@@ -41,12 +45,12 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "@types/mocha": "^2.2.48",
+        "@types/node": "^7.0.67",
+        "typescript": "^2.9.2",
+        "vscode": "^1.1.18"
     },
     "dependencies": {
-        "turndown": "^4.0.1"
+        "turndown": "^4.0.2"
     }
 }
